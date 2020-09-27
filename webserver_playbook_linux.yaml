@@ -1,0 +1,7 @@
+- hosts: web_linux
+  become: yes
+  tasks:
+  - name: "ensure httpd is installed on centos"
+    yum:
+     name: httpd
+     state: latest
