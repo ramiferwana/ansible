@@ -1,5 +1,0 @@
----
-- hosts: docker_servers
-
-  roles:
-    - python3
